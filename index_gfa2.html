@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="gfa2_styles.css">
+    <script src="gfa2_script.js"></script>
+</head>
+
+<body>
+    <!-- // Head Text -->
+    <h1> calcU </h1>
+    <h3> What to do: </h3>
+    <p> 1) Input two different numbers in the text box.</p>
+    <p> 2) Then, press any of the buttons below to determine your result. </p>
+
+     <!-- // Input Boxes -->
+    <input type="input1" id="num1">
+    <input type="input2" id="num2">
+    <br>
+
+    <!-- // Operations -->
+    <button onclick="addOp()"> + (add) </button>
+    <button onclick="subOp()"> - (minus) </button>
+    <button onclick="multiOp()"> x (multiply) </button>
+    <button onclick="divideOp()"> ÷ (divide) </button>
+    <button onclick="modOp()"> % (modulo) </button>
+
+    <!-- // Results Area -->
+    <p id="result"> | Results will display here. | </p>
+</body>
+</html>
