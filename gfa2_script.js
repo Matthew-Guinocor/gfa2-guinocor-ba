@@ -1,4 +1,4 @@
-// Formative Assessment 2 (I will make the functions LATER.)
+// Formative Assessment 2
 
 // Addition
 function addOp() {
